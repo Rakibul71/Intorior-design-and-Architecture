@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
@@ -10,6 +10,7 @@ import Blog from "./learn/Blog";
 import Academic from "./learn/Academic";
 import Course from "./learn/Course";
 import Crew from "./Pages/Crew";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
             <Crew></Crew>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
