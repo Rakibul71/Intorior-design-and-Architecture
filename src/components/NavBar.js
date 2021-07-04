@@ -10,13 +10,13 @@ import {
   Dropdown,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import logo from "../images/logo.png";
 const NavBar = () => {
   return (
     <div>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home" className="boot">
-          Limons Logo
+          <img src={logo} alt="logo" height="20" width="100px" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

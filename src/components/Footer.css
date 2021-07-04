@@ -1,0 +1,11 @@
+.Footer {
+  background-color: goldenrod;
+  color: white;
+}
+.firstPart {
+  border-right: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
