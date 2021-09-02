@@ -55,8 +55,8 @@ function App() {
             <Crew></Crew>
           </Route>
         </Switch>
-        <Footer></Footer>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }

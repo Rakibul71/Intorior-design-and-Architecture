@@ -16,7 +16,7 @@ const NavBar = () => {
     <div>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home" className="boot">
-          <img src={logo} alt="logo" height="20" width="100px" />
+          <img id="navbarLogo" width="200px" src={logo} alt="logo" />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

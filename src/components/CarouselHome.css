@@ -1,0 +1,14 @@
+/* .imageStyle {
+  max-height: 550px;
+  max-height: 300px;
+} */
+.homeImg {
+  max-height: 950px;
+  max-width: 1200px;
+  margin-left: 75px;
+}
+.homeImg img {
+  object-fit: cover;
+}
+
+/* media query */
